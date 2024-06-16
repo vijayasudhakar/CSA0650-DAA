@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int n,i,sum=0,rem=0;
+	printf("P. Vijaya Lakshmi, Reg.No - 192210200\n");
+	printf("\nEnter the Number:");
+	scanf("%d",&n);
+	i=n;
+	while(n!=0){
+		rem = n%10;
+		sum = sum + rem;
+		n = n/10;
+	}
+	printf("Sum of Digits of %d is %d.",i,sum);
+	return 0;
+}
