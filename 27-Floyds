@@ -1,0 +1,16 @@
+#include <stdio.h>  
+#include <conio.h>  
+int main()  
+{  
+    int num,i,j,k=1;   
+	printf("P. Vijaya Lakshmi, Reg.No - 192210200\n");
+	printf("\nEnter the Rows:");   
+    scanf("%d",&num);   
+    for(i=1;i<=num;i++){  
+        for(j=1;j<=i;j++){  
+            printf("%d ",k++);
+		}  
+        printf( "\n");  
+        }     
+    return 0;   
+}  
