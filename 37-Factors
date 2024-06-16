@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int n,i,rev,rem=0;
+	printf("P. Vijaya Lakshmi, Reg.No - 192210200\n");
+	printf("\nEnter the Number:");
+	scanf("%d",&n);
+	printf("Factors of the %d:",n);
+	for(i=1;i<=n;i++){
+	if(n%i==0){
+		printf("%d ",i);
+	}	
+	}
+	return 0;
+}
