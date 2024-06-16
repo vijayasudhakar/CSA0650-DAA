@@ -13,7 +13,7 @@ bool isPrime(int n)
 int main()
 {
 	int N = 100;
-	printf("K.L.V Jayaram,Reg.No: 192210314\n");
+	printf("P. Vijaya Lakshmi, Reg.No - 192210200\n");
 	for (int i = 1; i <= N; i++) {
 		if (isPrime(i))
 			printf("%d ", i);
