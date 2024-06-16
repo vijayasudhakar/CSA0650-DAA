@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+	int n,rem,i,rev;
+	printf("P. Vijaya Lakshmi, Reg.No - 192210200\n");
+	printf("\nEnter the Number:");
+	scanf("%d",&n);
+	while(n!=0){
+		rem = n%10;
+		rev = rev *10 + rem;
+		n = n/10;
+	}
+	printf("%d is the Reversed Number",rev);
+	return 0;
+}
